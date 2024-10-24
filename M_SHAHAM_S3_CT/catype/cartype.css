@@ -1,0 +1,83 @@
+body 
+{
+
+        margin: 0;
+
+        font-family: 'Arial', sans-serif;
+
+    
+    background-image: url('hero01.png');
+    background-size: cover;
+    background-repeat: repeat; 
+     height: 768px; 
+
+}
+ 
+
+
+.navbar {
+  background-color: lightgray;
+  overflow: auto;
+  position: fixed;
+  top:0;;
+  width: 100%;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.navbar a:hover {
+  background-color: darkred;
+  color: black;
+}
+
+
+.navbar a.active {
+  background-color: black;
+  color: white;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: lightgray;
+    border: 5px solid darkred;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background: black;
+    color: white;
+    border: 2px solid red;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: grey;
+}

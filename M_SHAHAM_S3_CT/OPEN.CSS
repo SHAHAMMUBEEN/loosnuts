@@ -1,0 +1,48 @@
+body 
+{
+
+        margin: 0;
+
+        font-family: 'Arial', sans-serif;
+
+    
+    background-image: url('hero.png');
+    background-size: cover;
+     height: 768px; 
+
+}
+ 
+
+
+
+.navbar {
+  background-color: lightgray;
+  overflow: auto;
+  position: fixed;
+  top:0;;
+  width: 100%;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.navbar a:hover {
+  background-color: darkred;
+  color: black;
+}
+
+
+.navbar a.active {
+  background-color: black;
+  color: white;
+}
